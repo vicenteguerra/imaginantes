@@ -193,21 +193,19 @@ section{
 
 #publicidad-footer{
   height: 240px;
-  width: 90%;
+  width: 100%;
+  display: inline-block;
   background-color: #ddd;
-  margin-bottom: 75px;
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 
 footer{
+  display: inline-block;
     color: #fff;
     height: 60px;
     width: 100%;
     background-color: #0c0c40;
-    position: fixed;
-    bottom: 0;
+    display: inline-block;
     left: 0;
 }
 
