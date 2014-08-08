@@ -51,7 +51,7 @@ nav {
   margin-bottom: 2%;
   height: 100px;
   width: 102%;
-
+  z-index: 1;
 }
 
 #menuIn{
@@ -86,7 +86,7 @@ nav {
 
 #menuInL{
   background: #f00;
-  margin-left: 20%;
+  margin-left: 23%;
 }
 
 #lmenu li {
@@ -176,7 +176,7 @@ section{
   height: 1200px;
   margin-right: 5%;
   margin-left: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 20px;
 }
 
 #slide{
@@ -191,6 +191,15 @@ section{
 .fixed { position: fixed; top: 0px; }
 
 
+#publicidad-footer{
+  height: 240px;
+  width: 90%;
+  background-color: #ddd;
+  margin-bottom: 75px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 
 footer{
     color: #fff;
@@ -200,6 +209,12 @@ footer{
     position: fixed;
     bottom: 0;
     left: 0;
+}
+
+footer p{
+      font: 11px FiraSansRegular;
+      text-align: center;
+      margin-top: 24px;
 }
 
 
