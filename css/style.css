@@ -86,7 +86,7 @@ nav {
 
 #menuInL{
   background: #f00;
-  margin-left: 23%;
+  margin-left: 20%;
 }
 
 #lmenu li {
@@ -98,7 +98,7 @@ nav {
 
 #lmenu a {
     float: left;
-    padding: 14px 15px;
+    padding: 14px 18px;
     color: #999;
     letter-spacing: 1px;
     font: 14px FiraSansRegular;
@@ -115,7 +115,7 @@ nav {
 /* SUBMENU  */
 
 #lmenu ul {
-
+    z-index: 2;
     _margin: 0; /*IE6 only*/
     opacity: 0;
     visibility: hidden;
@@ -179,10 +179,6 @@ section{
   margin-bottom: 20px;
 }
 
-#slide{
-  background-color: #ddd;
-  height: 400px;
-}
 
 .mainFixed{
   margin-top: 11%;

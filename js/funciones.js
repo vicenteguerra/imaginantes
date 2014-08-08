@@ -2,7 +2,7 @@
 
 $(function() {
 var fixadent = $("#menu"), pos = fixadent.offset();
-var main = $("#main");
+var main = $(".ia-container");
 $(window).scroll(function() {
 if($(this).scrollTop() > (pos.top + 0) && fixadent.css('position') == 'static') 
 	{ 
