@@ -1,0 +1,197 @@
+/* RESET*/
+#menu, #menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* FIN RESET */
+
+
+
+
+@font-face {
+  font-family: FiraSansRegular;
+  src: url("http://losimaginantes.mx/dev/fonts/firasans-master/FiraSans3105/OTF/FiraSans-Regular.otf") format("opentype");
+}
+
+header{
+  
+  width: 89%;
+  max-height: 100px;
+  min-height: 50px;
+  margin-right: 5.5%;
+  margin-left: 5.5%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+#publicidad1{
+  margin-left: 3%;
+  width: 45%;
+  max-width: 45%;
+  height: 100px;
+  background-color: #eee;
+  display: inline-block;
+}
+
+#publicidad2{
+  margin-left: 3%;
+  width: 45%;
+  max-width: 45%;
+  height: 100px;
+  background-color: #eee;
+  display: inline-block;
+}
+
+
+nav {  
+}
+
+#menu{
+  margin-left: -1%;
+  margin-right: -1%;
+  margin-bottom: 2%;
+  height: 100px;
+  width: 102%;
+
+}
+
+#menuIn{
+  color: #fff;
+  margin-top: 25px;
+  height: 50px;
+  width: 100%;
+  background-color: #0c0c40;
+  display: inline-block;
+}
+
+
+#logo{
+  vertical-align: center;
+  position: absolute;
+  margin-left: 6%;
+ background-color: #fff;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  width:100px;
+  height:100px;
+  margin-top: -79px;
+  display: block;
+  border-radius: 80px;
+}
+
+#logo img{
+  margin: 5px 5px;
+}
+
+
+#menuInL{
+  background: #f00;
+  margin-left: 220px;
+}
+
+#lmenu li {
+    float: left;
+    /*border-right: 1px solid #222; */
+    /*box-shadow: 1px 0 0 #444; */
+    position: relative;
+}
+
+#lmenu a {
+    float: left;
+    padding: 14px 30px;
+    color: #999;
+    letter-spacing: 1px;
+    font: 14px FiraSansRegular;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+#lmenu li:hover > a {
+    color: #fafafa;
+}
+
+
+/* SUBMENU  */
+
+#lmenu ul {
+
+    _margin: 0; /*IE6 only*/
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 50px;
+    left: 0;    
+    transition: all .2s ease-in-out;
+}
+
+#lmenu li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    margin: 0;
+}
+
+#lmenu ul ul {
+    top: 0;
+    _margin: 0; /*IE6 only*/   
+}
+
+#lmenu ul li {
+    float: none;
+    display: block;
+    border: 0;
+    _line-height: 0; /*IE6 only*/
+
+}
+
+#lmenu ul li:last-child {   
+    box-shadow: none;    
+}
+
+#lmenu ul a {    
+    margin-left: -35px;
+    margin-top: 0px;
+    width: 140px;
+    background-color: #0b0b3b;
+    opacity: 1;
+    height: 10px;
+    _height: 10px; /*IE6 only*/
+    white-space: nowrap;
+    text-align: center;
+}
+
+#lmenu ul a:hover {
+    background-color: #005;
+    color: #fff;
+
+}
+
+
+section{
+  
+}
+
+#main{
+  background-color: #eee;
+  height: 1200px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+#slide{
+  background-color: #ddd;
+  height: 400px;
+}
+
+.mainFixed{
+  margin-top: 11%;
+}
+
+.fixed { position: fixed; top: 0px; }
+
+
+
+
