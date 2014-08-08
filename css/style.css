@@ -11,6 +11,10 @@
   font-family: FiraSansRegular;
   src: url("http://losimaginantes.mx/dev/fonts/firasans-master/FiraSans3105/OTF/FiraSans-Regular.otf") format("opentype");
 }
+@font-face {
+  font-family: FiraSansExtraLight;
+  src: url("http://losimaginantes.mx/dev/fonts/firasans-master/FiraSans3105/OTF/FiraSans-ExtraLight.otf") format("opentype");
+}
 
 header{
   
@@ -206,7 +210,7 @@ footer{
 }
 
 footer p{
-      font: 11px FiraSansRegular;
+      font: 11px FiraSansExtraLight;
       text-align: center;
       margin-top: 24px;
 }

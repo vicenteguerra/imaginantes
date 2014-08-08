@@ -9,7 +9,7 @@
 .ia-container figure {
     position: absolute;
 	top: 0;
-	left: 50px; /* width of visible piece */
+	left: 200px; /* width of visible piece */
 	width: 335px;
     box-shadow: 0 0 0 1px rgba(255,255,255,0.6);
 	-webkit-transition: all 0.3s ease-in-out;
@@ -33,7 +33,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 50px; /* just cover visible part */
+	width: 200px; /* just cover visible part */
 	height: 100%;
 	cursor: pointer;
 	border: 0;
