@@ -7,8 +7,6 @@
 /* FIN RESET */
 
 
-
-
 @font-face {
   font-family: FiraSansRegular;
   src: url("http://losimaginantes.mx/dev/fonts/firasans-master/FiraSans3105/OTF/FiraSans-Regular.otf") format("opentype");
@@ -88,7 +86,7 @@ nav {
 
 #menuInL{
   background: #f00;
-  margin-left: 220px;
+  margin-left: 20%;
 }
 
 #lmenu li {
@@ -100,7 +98,7 @@ nav {
 
 #lmenu a {
     float: left;
-    padding: 14px 30px;
+    padding: 14px 15px;
     color: #999;
     letter-spacing: 1px;
     font: 14px FiraSansRegular;
@@ -191,6 +189,19 @@ section{
 }
 
 .fixed { position: fixed; top: 0px; }
+
+
+
+footer{
+    color: #fff;
+    height: 60px;
+    width: 100%;
+    background-color: #0c0c40;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
 
 
 
