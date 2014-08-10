@@ -189,11 +189,32 @@ nav {
 
 
 #publicaciones{
-    height: 500px;
+    height: 700px;
     width: 100%;
     background-color: #ddd;
 }
 
+#contenedorPublicaciones{
+  text-align: center;
+  }
+
+.publicacion{
+  margin-top: 50px;
+  margin-left: 35px;
+  margin-right: 35px;
+  height: 280px;
+  width: 250px;
+  background-color: #aaa;
+  display: inline-block;
+}
+
+.textoPublicacion{
+  height: 80px;
+  width: 100%;
+  display: inline-block;
+  margin-top: 200px;
+  background-color: #0c0c40;
+}
 
 #publicidad-footer{
   height: 240px;
@@ -252,7 +273,8 @@ background: #b0e7e3;
 display: inline-block;
 width: 25%;
 box-sizing: border-box;
-font-size:18px;
+font: 14px FiraSansRegular;
+text-transform: uppercase;
 }
 .menudes ul li a {
   color: #000;
@@ -263,13 +285,13 @@ position: absolute;
 bottom: 0px;
 left: -12.5%; /* Al menos 1/2 del ancho de cada enlace */
 width: 12.5%; /* 1/2 del ancho de cada enlace */
-height: 7px;
+height: 8px;
 background: #fff;
 transition: 0.5s ease-in-out; 
 }
 
 #linea{
-  height:7px;
+  height:10px;
   background-color: #c73157;
   margin-top: -3px;
   z-index: 2;
