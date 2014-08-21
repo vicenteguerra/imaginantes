@@ -17,6 +17,8 @@ else if($(this).scrollTop() <= pos.top && fixadent.hasClass('fixed'))
 })
 });
 
+$( '#menuIntL li:has(ul)' ).doubleTapToGo();
+
 
  
     

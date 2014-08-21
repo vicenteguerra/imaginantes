@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Los Imaginantes</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
@@ -10,6 +11,9 @@
   <link rel="stylesheet" type="text/css" href="css/styleSlide.css" />
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
   <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+  <script type="text/javascript" src="js/doubletaptogo.js"></script>
+  
+
 </head>
 <body>
   <header >
@@ -21,18 +25,32 @@
     </section>
   </header>
   
-  <nav id="menu" >
-    <section id="menuIn">
-      <section id="menuInL">
-	<ul id="lmenu">
+
+
+
+  <section id="menu" >
+    <section id="menuIn" >
+      <nav id="menuInL"  role="navigation"> <!-- Letras en Menu -->
+
+      	<!--Responsive Menu -->
+      	
+
+      		<a href="#menuInL" title="Show navigation" id="mostrar">Mostrar Menu</a>
+    		<a href="#" title="Hide navigation" id="ocultar">Ocultar Menu</a>
+
+      	 
+
+    	<!-- / Responsive Menu -->
+
+	<ul id="lmenu" role="navigation">
 	  <li><a href="">Noticias</a>
 	    <ul>
-	      <li><a href="">Minuto a Minuto</a></li>
+	      <li><a href="" aria-haspopup="true">Minuto a Minuto</a></li>
 	    </ul>
 	  </li>
 	  
-	  <li><a href="">Papeles Voladores</a></li>
-	  <li><a href="">Reseñas</a>
+	  <li><a href="" aria-haspopup="true">Papeles Voladores</a></li>
+	  <li><a href="" aria-haspopup="true">Reseñas</a>
 	    <ul>
 	      <li><a href="">Conciertos</a></li>
 	      <li><a href="">Galerías</a></li>
@@ -40,7 +58,7 @@
 	      <li><a href="">Cine Soundtracks</a></li>
 	    </ul>
 	  </li>
-	  <li><a href="">Editorial</a>
+	  <li><a href="" aria-haspopup="true">Editorial</a>
 	    <ul>
 	      <li><a href="">MATDI</a></li>
 	      <li><a href="">La nota ilustrada</a></li>
@@ -53,26 +71,28 @@
 	      <li><a href="">Cooltura</a></li>
 	    </ul>
 	  </li>
-	  <li><a href="">Coberturas</a>
+	  <li><a href="" aria-haspopup="true">Coberturas</a>
 	    <ul>
-	      <li><a href="">Corona Capital 14</a></li>
+	      <li><a href="" aria-haspopup="true">Corona Capital 14</a></li>
 	    </ul>
 	  </li>
 	  <li><a href="">Contacto</a>
 	    <ul>
-	      <li><a href="">Contacto</a></li>
+	      <li><a href="" aria-haspopup="true">Contacto</a></li>
 	      <li><a href="">Staff</a></li>
 	      <li><a href="">Colaboradores</a></li>
 	    </ul>
 	  </li>
 	</ul>
-      </section>
+      </nav>
+      
+
       
       
       
     </section>
     <section id="logo"> <img src="images/GloboHeader.png" width="90px" height="90px"> </section>
-  </nav>
+  </section>
   
   <section class="principal">
     
