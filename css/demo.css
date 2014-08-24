@@ -1,16 +1,6 @@
 @import url('normalize.css');
 /* General Demo Style */
-body{
-	font-family: 'Open Sans Condensed','Arial Narrow', serif;
-	background: #ddd url(../images/bg.jpg) repeat top left;
-	font-weight: 400;
-	font-size: 15px;
-	color: #333;
-}
-a{
-	color: #555;
-	text-decoration: none;
-}
+
 .container{
 	width: 100%;
 	position: relative;

@@ -1,3 +1,13 @@
+/* COLORES  
+
+#0c0c32   Azul casi negro
+#b0e7e3   ROSA IMAGINANTE 
+
+
+ COLORES */
+
+
+
 /* RESET*/
 #menu, #menu ul {
     margin: 0;
@@ -17,41 +27,108 @@
 }
 
 header{
-  
-  width: 89%;
-  max-height: 100px;
-  min-height: 50px;
-  margin-right: 5.5%;
-  margin-left: 5.5%;
-  margin-bottom: 1%;
-  margin-top: 2%;
+  margin-bottom: -25px;
 }
 
-#publicidad1{
-  margin-left: 3%;
-  width: 45%;
-  max-width: 45%;
-  height: 100px;
+#contenedorPublicidad{
+  width: 100%;
+  text-align: center;
   background-color: #eee;
-  display: inline-block;
 }
+
+/*  -------- PUBLICIDAD HEADER  --------- */ 
+
+/*  ---- SMARTHPHONE ----*/
+
+@media only screen and (max-width: 590px){
+   #publicidadL{
+    background-image: url("http://lorempixel.com/300/65/");
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 300px;
+    height: 65px;
+    background-color: #0c0c32;
+    display: inline-block;
+  } 
+   #publicidadR{
+    visibility: hidden;
+  } 
+
+}
+
+/*  ---- TABLETS ----*/
+
+@media only screen and (min-width: 591px) and ( max-width: 1179px) {
+  #publicidadL{
+    background-image: url("http://lorempixel.com/550/120/");
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 550px;
+    height: 120px;
+    background-color: #0c0c32;
+    display: inline-block;
+  } 
+   #publicidadR{
+    visibility: hidden;
+  } 
+}
+
+/*  ---- NORMAL  ----*/
+
+@media only screen and ( min-width: 1180px) {
+   #publicidadL{
+    background-image: url("http://lorempixel.com/550/120/");
+    display: inline-block;
+    margin-left: 19px;
+    margin-right: 19px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 550px;
+    height: 120px;
+
+  } 
+
+  #publicidadR{
+    display: inline-block;
+    background-image: url("http://lorempixel.com/550/120/");
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 550px;
+    height: 120px;
+    
+    
+  } 
+}
+
+
+
+
+/*  -------- TERMINA PUBLICIDAD HEADER  --------- */ 
+
 
 #publicidad2{
-  margin-left: 3%;
-  width: 45%;
-  max-width: 45%;
-  height: 100px;
-  background-color: #eee;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  width: 90%;
+  height: 120px;
+  background-color: #0c0c32;
   display: inline-block;
 }
-
 
 
 
 #menu{
   margin-left: 0%;
   margin-right: 0%;
-  margin-bottom: 30px;
+  margin-bottom: -25px;
   height: 100px;
   width: 100%;
   z-index: 1;
@@ -62,7 +139,7 @@ header{
   margin-top: 25px;
   height: 50px;
   width: 100%;
-  background-color: #0c0c40;
+  background-color: #0c0c32;
   display: inline-block;
 }
 
@@ -94,70 +171,38 @@ header{
 
 
 
-#lmenu li {
-    float: left;
-    /*border-right: 1px solid #222; */
-    /*box-shadow: 1px 0 0 #444; */
-    position: relative;
-}
+
 
 
 
 @media only screen and ( max-width: 768px) {  /*  ---------- MOVILES ---------  */ 
 
 
-
-#menuInL
-{
-    /* container */
-}
-    #menuInL > a
-    {
-        display: none;
-    }
-    #menuInL li
-    {
-        position: relative;
-    }
- 
-    /* first level */
- 
-    #menuInL > ul
-    {
-       
-    }
-        #menuInL > ul > li
-        {
-            width: 100%;
-            height: 100%;
-            float: right;
-
-        }
- 
-    /* second level */
- 
     #menuInL li ul
     {
+        z-index: 3;
         display: none;
-        position: absolute;
+        position: relative;
         top: 100%;
+        margin-top: 0px;
     }
         #menuInL li:hover ul
         {
-            display: block;
+            display: inline;
         }
 
 
   #lmenu{
-    float: right;
+    display: block;
+    top: 35px;
   }
 
   #lmenu a {
     float: right;
     height: 10px;
-    margin-right:  0px;
-    background-color: #0c0c40;
-    padding: 14px 18px;
+    margin-right:  -30px;  /* ICONO */
+    background-color: #0c0c32;
+    padding: 12px 18px;
     color: #fff;
     width: 100%;
     letter-spacing: 1px;
@@ -170,26 +215,34 @@ header{
 
   #menuInL
     {
+        text-align: right;
         position: relative;
         float: right;
-        margin-right:  0px;
-        margin-top: 15px;
+        margin-right: 30px;  /* ICONO MENU */
+        margin-top: 12px;
         width: 150px;
     }
         #menuInL > a
         {
+          display: none;
         }
+        #menuInL li
+    {
+        position: relative;
+    }
         #menuInL:not( :target ) > a:first-of-type,
         #menuInL:target > a:last-of-type
         {
             display: block;
         }
  
+
+
     /* first level */
  
     #menuInL > ul
     { 
-        height: auto;
+        height: 30px;
         display: none;
         position: absolute;
         left: 0;
@@ -202,7 +255,9 @@ header{
         #menuInL > ul > li
         {
             width: 100%;
-            float: none;
+            height: 100%;
+            float: right;
+
         }
  
     /* second level */
@@ -227,6 +282,10 @@ header{
 
     }
 
+    #lmenu li{
+
+    }
+
     #lmenu li:hover > ul {
         opacity: 1;
         visibility: visible;
@@ -239,7 +298,6 @@ header{
     }
 
     #lmenu ul li {
-
         float: none;
         display: block;
         border: 0;
@@ -247,18 +305,25 @@ header{
 
     }
 
-    #lmenu ul li:last-child {   
-        box-shadow: none; 
+    #lmenu ul li a{
+
+      padding-bottom: 25px;
+      margin-top: -30px;
+      margin-bottom: 10px;
+    }
+
+    #lmenu ul li a:last-child {   
 
     }
 
     #lmenu ul a {   
-        margin-right: 0px;
+        margin-right: 156px; /* ICONO */
         margin-top: 0px;
-        width: 100%;
+        width: 80%;
         background-color: #0b0b3b;
         opacity: 1;
-        height: 6px;
+        height: 8px;
+
         _height: 8px; /*IE6 only*/
         white-space: nowrap;
         font: 10px FiraSansExtraLight;
@@ -266,8 +331,8 @@ header{
     }
 
     #lmenu ul a:hover {
-        background-color: #005;
-        color: #fff;
+
+        color: #ddd;
 
     }
 
@@ -280,6 +345,13 @@ header{
 
 
 @media screen and (min-width: 769px) {  /*  ---------- NORMAL ---------  */ 
+
+  #lmenu li {
+    float: left;
+    /*border-right: 1px solid #222; */
+    /*box-shadow: 1px 0 0 #444; */
+    position: relative;
+}
 
   #mostrar{
     display: none;
@@ -377,10 +449,21 @@ header{
 
 
 
+#slide{
+  width: 100%;
+  
+  background-color: #B0E7E3;
+  height: 400px;
+}
+
+
+.slideFixed{
+  margin-top: 85px;
+}
 
 .principal{
   background-color: #eee;
-  height: 600px;
+  height: 100px;
   margin-right: 5%;
   margin-left: 5%;
   margin-bottom: 20px;
@@ -396,13 +479,49 @@ header{
   position: fixed; top: 0px; }
 
 
-/*  Publicaciones index  */ 
+/*                           -----------  Publicaciones index  ------------ */ 
+
+/*  ---- SMARTHPHONE ----*/
+
+@media only screen and (max-width: 375px){
+   
+    #publicacion{
+      margin-top: 30px;
+      margin-left:3px;
+      margin-right:3px;
+      height: 220px;
+      width: 280px;
+      display: inline-block;
+    }
+
+    #publicacion img{
+      height: 220px;
+      width: 280px;
+    }
+
+}
+
+/*  ---- TERMINA SMARTHPHONE ----*/
+
+@media only screen and ( min-width: 376px) {
+  
+  #publicacion{
+    margin-top: 50px;
+    margin-left: 22.5px;
+    margin-right: 22.5px;
+    height: 260px;
+    width: 330px;
+    display: inline-block;
+  }  
+  
+}
 
 #publicaciones{
   display: inline-block;
-    height: 700px;
+    height: auto;
     width: 100%;
-    background-color: #ddd;
+    background-color: #eee;
+
 }
 
 #contenedorPublicaciones{
@@ -410,28 +529,21 @@ header{
   text-align: center;
   }
 
-.publicacion{
-  margin-top: 50px;
-  margin-left: 35px;
-  margin-right: 35px;
-  height: 280px;
-  width: 250px;
-  background-color: #aaa;
-  display: inline-block;
-}
+
 
 .textoPublicacion{
-  height: 80px;
+
+  height: 130px;
   width: 100%;
   display: inline-block;
-  margin-top: 200px;
-  background-color: #0c0c40;
+  margin-top: -4px;
+  background-color: #0c0c32;
 }
 
 
 
 
-/*  Termina Publicaciones index  */ 
+/*                         -----------  TEMRINA Publicaciones index  ------------ */ 
 
 /* -------- PUBLICIDAD ------------ */
 
@@ -451,59 +563,75 @@ header{
 /*  -------- FOOTER  ----------  */
 
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {  /*  ---- VERSION MOVIL ---- */
    footer{
     display: inline-block;
     color: #fff;
-    height: 60px;
+    height: 0px;
     width: 100%;
-    background-color: #0c0c40;
+    margin-top: 30px;
+    padding-bottom: 60px;
+    background-color: #0c0c32;
     left: 0;
         
     }
 
-    footer p{
-          margin-left: 2%;
-          margin-right: 2%;
-          font: 12px FiraSansExtraLight;
-          display: inline;
-          padding-top: 20px;
-    }
 
     footer img{
-      text-align: center;
-      display: inline-block;
-      padding-top: 0px;
-      padding-left: 5px;
+      padding-left: 10px;
     }
-}
 
-@media screen and (min-width: 768px) {
+    #RedesSociales{
+      margin-top: 2px;
+      display: inline-block;
+      width: 29%;
+      height: 30px;
+    }
+
+    #textoFooter{
+      text-align: right;
+      margin-top: 2px;
+      display: inline-block;
+      font: 12px FiraSansExtraLight;
+      width: 70%;
+      height: 30px;
+    }
+
+}       /*  ----  TERMINA VERSION MOVIL ---- */
+
+@media screen and (min-width: 769px) {
     
     footer{
     display: inline-block;
-    position: inherit;
     color: #fff;
     height: 0px;
     width: 100%;
+    margin-top: 30px;
     padding-bottom: 60px;
-    background-color: #0c0c40;
+    background-color: #0c0c32;
     left: 0;
         
     }
 
-    footer p{
-          margin-left: 5%;
-          font: 15px FiraSansExtraLight;
-          display: inline;
-          padding-top: 20px;
-    }
 
     footer img{
-      text-align: center;
-      display: inline;
-      padding-top: 20px;
       padding-left: 10px;
+    }
+
+    #RedesSociales{
+      margin-top: 15px;
+      display: inline-block;
+      width: 29%;
+      height: 30px;
+    }
+
+    #textoFooter{
+      text-align: right;
+      margin-top: 15px;
+      display: inline-block;
+      font: 13px FiraSansExtraLight;
+      width: 70%;
+      height: 30px;
     }
 
 }
@@ -520,7 +648,7 @@ header{
 position: relative;
 overflow: hidden;
 width: 100%;
-height: 25px;
+height: 27px;
 line-height: 20px;
 z-index: 0;
 border-radius: 0px;
@@ -535,7 +663,7 @@ background: #b0e7e3; /* ROSA IMAGINANTE */
 }
 .menudes ul li {
 display: inline-block;
-width: 25%;
+width: 100px;
 box-sizing: border-box;
 font: 14px FiraSansRegular;
 text-transform: uppercase;
@@ -547,9 +675,9 @@ text-transform: uppercase;
 .marca {
 position: absolute;
 bottom: 0px;
-left: -12.5%; /* Al menos 1/2 del ancho de cada enlace */
-width: 12.5%; /* 1/2 del ancho de cada enlace */
-height: 4px;
+left: -70px; /* Al menos 1/2 del ancho de cada enlace */
+width: 70px; /* 1/2 del ancho de cada enlace */
+height: 6px;
 background: #fff;
 transition: 0.5s ease-in-out; 
 }
@@ -562,18 +690,42 @@ transition: 0.5s ease-in-out;
 }
 
 .menudes ul li:nth-child(1):hover ~ .marca {
-left: 19%; /* 1/4 Ancho del enlace */
+left: -moz-calc(50% -140px); /* 1/4 Ancho del enlace */
+left: calc(50% - 140px);
 }
 .menudes ul li:nth-child(2):hover ~ .marca {
-left: 44%; /* 1/4 Ancho del enlace + 1 vez ancho enlace */
+left: -moz-calc(50% -35px);  /* 1/4 Ancho del enlace + 1 vez ancho enlace */
+left: calc(50% - 35px); 
 }
 .menudes ul li:nth-child(3):hover ~ .marca {
-left: 69%; /* 1/4 Ancho del enlace + 2 veces ancho enlace */
+left: -moz-calc(50% +70px) ; /* 1/4 Ancho del enlace + 2 veces ancho enlace */
+left: calc(50% + 70px) ; 
 }
 .menudes ul li:nth-child(4):hover ~ .marca {
-left: 81.5%; /* 1/4 Ancho del enlace + 3 veces ancho enlace */
+left: 35%; /* 1/4 Ancho del enlace + 3 veces ancho enlace */
 }
 
 /*  --------  TERMINA MENU MUSICA MODA COOLTURA  --------- */ 
 
+
+/* --------   EFECTO BLANCO Y NEGRO  -------- */
+
+.grises img{
+    filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+     -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.grises img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+
+}
+
+/* --------   TERMINA EFECTO BLANCO Y NEGRO  -------- */
 
