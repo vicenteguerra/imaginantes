@@ -122,7 +122,15 @@ header{
   background-color: #0c0c32;
   display: inline-block;
 }
-
+ 
+ /* Barra Transparente */ 
+ 
+#SuperiorMenu{
+  margin-bottom: -25px;
+  background-color: #eee;
+  height: 26px;
+  opacity: 0.8;
+}
 
 
 #menu{
