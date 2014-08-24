@@ -1,7 +1,8 @@
 /* COLORES  
 
 #0c0c32   Azul casi negro
-#b0e7e3   ROSA IMAGINANTE 
+#b0e7e3   Azul clarito
+#c73157   Rosa Imaginante
 
 
  COLORES */
@@ -124,7 +125,7 @@ header{
 }
  
  /* Barra Transparente */ 
- 
+
 #SuperiorMenu{
   margin-bottom: -25px;
   background-color: #eee;
@@ -377,7 +378,7 @@ header{
   #lmenu a {
     float: left;
     padding: 14px 22px;
-    color: #ccc;
+    color: #fff;
     letter-spacing: 1px;
     font: 14px FiraSansRegular;
     text-transform: uppercase;
@@ -385,7 +386,7 @@ header{
   }
 
   #lmenu a:hover{
-    color: #fff;
+    color: #b0e7e3;
   }
 
     /* SUBMENU  */
