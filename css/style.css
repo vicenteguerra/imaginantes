@@ -491,7 +491,7 @@ header{
 @media only screen and (max-width: 750px){
    
     #publicacion{
-      margin-top: 50px;
+      margin-top: 80px;
       margin-bottom: 40px;
       margin-left:3px;
       margin-right:3px;
@@ -518,7 +518,7 @@ header{
       margin-top: -80px;
       display: inline-block;
       text-align: center;
-      margin-bottom: 80px;
+      margin-bottom: 100px;
     }
 
     .textoPublicacion{
