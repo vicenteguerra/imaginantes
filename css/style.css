@@ -777,13 +777,22 @@ left: 35%; /* 1/4 Ancho del enlace + 3 veces ancho enlace */
 
 /* -------------------- WIDGETS ----------------  */
 
-#widgets{
+#contenedorWidgets{
   width: 100%;
-  height: 330px;
+  height: 500px;
   background-color: #b0e7e3;
   display: inline-block;
   margin-bottom: -4px;
 }
+ #Widgets{
+    margin-top: 50px;
+    margin-left: 22.5px;
+    margin-right: 22.5px;
+    height: 330px;
+    padding-bottom: 40px;
+    width: 330px;
+    display: inline-block;
+  }  
 
 /* --------------- TERMINA WIDGETS --------------  */
 
