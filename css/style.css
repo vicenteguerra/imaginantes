@@ -570,13 +570,18 @@ header{
     height: 120px;
     width: 100%;
     margin-top: 0px;
-    background-color: #f44; /* 0c0c32 */
+    background-color: #0c0c32 ; /* */
     left: 0;
         
     }
 
     footer img{
-      padding-left: 10px;
+      padding-left: 7px;
+    }
+
+    #RedesSociales img{
+      width: auto;
+      height: 18px;
     }
 
     #RedesSociales{
@@ -593,7 +598,7 @@ header{
       position: absolute;
       margin-top: 60px;
       text-align: center;
-      font: 12px FiraSansExtraLight;
+      font: 10px FiraSansExtraLight;
       width: 100%;
       height: 60px;
     }
@@ -626,6 +631,8 @@ header{
       width: 29%;
       height: 30px;
     }
+
+
 
     #textoFooter{
       text-align: right;
@@ -779,4 +786,6 @@ left: 35%; /* 1/4 Ancho del enlace + 3 veces ancho enlace */
 }
 
 /* --------------- TERMINA WIDGETS --------------  */
+
+
 
