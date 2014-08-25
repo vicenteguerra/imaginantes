@@ -777,20 +777,40 @@ left: 35%; /* 1/4 Ancho del enlace + 3 veces ancho enlace */
 
 /* -------------------- WIDGETS ----------------  */
 
-#contenedorWidgets{
+#Widgets{
   width: 100%;
   height: 500px;
   background-color: #b0e7e3;
   display: inline-block;
   margin-bottom: -4px;
 }
- #Widgets{
+ #FacebookWidget{
+    width: 330px;
+    height: 330px;
     margin-top: 50px;
     margin-left: 22.5px;
     margin-right: 22.5px;
-    height: 330px;
     padding-bottom: 40px;
+    display: inline-block;
+  }   
+
+  #TwitterWidget{
     width: 330px;
+    height: 330px;
+    margin-top: 50px;
+    margin-left: 22.5px;
+    margin-right: 22.5px;
+    padding-bottom: 40px;
+    display: inline-block;
+  }   
+
+  #InstagramWidget{
+    width: 330px;
+    height: 330px;
+    margin-top: 50px;
+    margin-left: 22.5px;
+    margin-right: 22.5px;
+    padding-bottom: 40px;
     display: inline-block;
   }  
 
