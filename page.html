@@ -9,9 +9,15 @@
   <script type="text/javascript" src="js/funciones.js"></script>
   <link rel="stylesheet" type="text/css" href="css/demo.css" />
   <link rel="stylesheet" type="text/css" href="css/styleSlide.css" />
+
+
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+
+
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
   <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
   <script type="text/javascript" src="js/doubletaptogo.js"></script>
+
   
 
 </head>
@@ -153,7 +159,7 @@
  </ul>
 </section>
 
-  <section id="publicaciones">
+  <section id="publicaciones"> <!--  ********  INICIA PUBLICACIONES ******** -->
   	<section id="contenedorPublicaciones">
   		<section id="publicacion" class="grises">
   			<img src="http://lorempixel.com/330/260/">
@@ -213,12 +219,14 @@
   	</section>
 
   	
-
-  </section>
+  </section> <!--  ********  TERMINA PUBLICACIONES ******** -->
   
+  		<section id="widgets">
+
+  		</section>
 
 
-  <section id="contenedorPublicidad">
+  		<section id="contenedorPublicidad">
   			<section id="publicidadL">
       	
 		    </section>
@@ -234,10 +242,21 @@
   		
 
   		<section id="textoFooter">
+  			
 
-			<p>Términos y Condiciones | Los Imaginantes  | © Todos los derechos reservados | 2011 - 2014    --//BARRA BUSQUEDA//--</p>
+			<p>Términos y Condiciones | Los Imaginantes  | © Todos los derechos reservados | 2011 - 2014  </p>
+
+			
   		</section>
-    	
+    <!--	
+		<section id="sb-search" class="sb-search">
+						<form>
+							<input class="sb-search-input" placeholder="Enter your search term..." type="text" value="" name="search" id="search">
+							<input class="sb-search-submit" type="submit" value="">
+							<span class="sb-icon-search"></span>
+						</form>
+		    </section>
+	-->
 
     	<section id="RedesSociales">
 
@@ -257,5 +276,11 @@
 
   </footer>
   
+  <script src="js/classie.js"></script>
+  <script src="js/uisearch.js"></script>
+<script>
+			new UISearch( document.getElementById( 'sb-search' ) );
+</script>
+
 </body>
 </html>

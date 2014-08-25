@@ -46,8 +46,8 @@ header{
     background-image: url("http://lorempixel.com/300/65/");
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 30px;
+    margin-bottom: 30px;
     width: 300px;
     height: 65px;
     background-color: #0c0c32;
@@ -66,8 +66,8 @@ header{
     background-image: url("http://lorempixel.com/550/120/");
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 30px;
+    margin-bottom: 30px;
     width: 550px;
     height: 120px;
     background-color: #0c0c32;
@@ -86,8 +86,8 @@ header{
     display: inline-block;
     margin-left: 19px;
     margin-right: 19px;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 35px;
+    margin-bottom: 35px;
     width: 550px;
     height: 120px;
 
@@ -98,11 +98,10 @@ header{
     background-image: url("http://lorempixel.com/550/120/");
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 35px;
+    margin-bottom: 35px;
     width: 550px;
     height: 120px;
-    
     
   } 
 }
@@ -171,17 +170,6 @@ header{
 #logo img{
   margin: 5px 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media only screen and ( max-width: 768px) {  /*  ---------- MOVILES ---------  */ 
@@ -496,8 +484,10 @@ header{
    
     #publicacion{
       margin-top: 30px;
+      margin-bottom: 30px;
       margin-left:3px;
       margin-right:3px;
+      padding-bottom: 40px;
       height: 220px;
       width: 280px;
       display: inline-block;
@@ -519,6 +509,7 @@ header{
     margin-left: 22.5px;
     margin-right: 22.5px;
     height: 260px;
+    padding-bottom: 40px;
     width: 330px;
     display: inline-block;
   }  
@@ -528,6 +519,7 @@ header{
 #publicaciones{
   display: inline-block;
     height: auto;
+    padding-bottom: 40px;
     width: 100%;
     background-color: #eee;
 
@@ -569,16 +561,53 @@ header{
 
 
 
-/*  -------- FOOTER  ----------  */
+/*  ----------------------------------- FOOTER  ----------  */
+
+@media screen and (max-width:768px) {  /*  ---- VERSION SMARTHPHONE ---- */
+   footer{
+    display: inline-block;
+    color: #fff;
+    height: 120px;
+    width: 100%;
+    margin-top: 0px;
+    background-color: #f44; /* 0c0c32 */
+    left: 0;
+        
+    }
+
+    footer img{
+      padding-left: 10px;
+    }
+
+    #RedesSociales{
+      margin-top: 30px;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      height: 60px;
+
+    }
+
+    #textoFooter{
+      position: absolute;
+      margin-top: 60px;
+      text-align: center;
+      font: 12px FiraSansExtraLight;
+      width: 100%;
+      height: 60px;
+    }
+
+}       /*  ----  TERMINA VERSION SMARTHPHONE ---- */
 
 
-@media screen and (max-width:768px) {  /*  ---- VERSION MOVIL ---- */
+
+@media screen and (min-width:768px) {  /*  ---- VERSION MOVIL ---- */
    footer{
     display: inline-block;
     color: #fff;
     height: 0px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 0px;
     padding-bottom: 60px;
     background-color: #0c0c32;
     left: 0;
@@ -615,13 +644,12 @@ header{
     color: #fff;
     height: 0px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 0px;
     padding-bottom: 60px;
     background-color: #0c0c32;
     left: 0;
         
     }
-
 
     footer img{
       padding-left: 10px;
@@ -648,7 +676,7 @@ header{
 
 
 
-/*  -------- TERMINA FOOTER  ----------  */
+/*  -------------------------- TERMINA FOOTER  ----------  */
 
 /*--------- MENU MUSICA MODA COOLTURA -------------  */ 
 
@@ -737,4 +765,17 @@ left: 35%; /* 1/4 Ancho del enlace + 3 veces ancho enlace */
 }
 
 /* --------   TERMINA EFECTO BLANCO Y NEGRO  -------- */
+
+
+/* -------------------- WIDGETS ----------------  */
+
+#widgets{
+  width: 100%;
+  height: 330px;
+  background-color: #b0e7e3;
+  display: inline-block;
+  margin-bottom: -4px;
+}
+
+/* --------------- TERMINA WIDGETS --------------  */
 
