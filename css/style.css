@@ -172,6 +172,8 @@ header{
 }
 
 
+/*  ------------------------------- - - - NAV MENU - - - --------------------------------- */
+
 @media only screen and ( max-width: 768px) {  /*  ---------- MOVILES ---------  */ 
 
 
@@ -209,6 +211,11 @@ header{
     text-align: right;
   }
 
+  #menuInL img{
+    margin-top: 3px;
+    height: 20px;
+    width: auto;
+  }
 
   #menuInL
     {
@@ -443,6 +450,7 @@ header{
 }
 
  /*  ---------- TERMINA  NORMAL ---------  */ 
+ /*  ------------------------------- - - - TERMINA NAV MENU - - - --------------------------------- */
 
 
 
@@ -480,14 +488,14 @@ header{
 
 /*  ---- SMARTHPHONE ----*/
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 750px){
    
     #publicacion{
-      margin-top: 30px;
-      margin-bottom: 30px;
+      margin-top: 50px;
+      margin-bottom: 40px;
       margin-left:3px;
       margin-right:3px;
-      padding-bottom: 40px;
+      padding-top: 40px;
       height: 220px;
       width: 280px;
       display: inline-block;
@@ -498,50 +506,108 @@ header{
       width: 280px;
     }
 
-}
-
-/*  ---- TERMINA SMARTHPHONE ----*/
-
-@media only screen and ( min-width: 376px) {
-  
-  #publicacion{
-    margin-top: 50px;
-    margin-left: 22.5px;
-    margin-right: 22.5px;
-    height: 260px;
-    padding-bottom: 40px;
-    width: 330px;
-    display: inline-block;
-  }  
-  
-}
-
-#publicaciones{
+    #publicaciones{
   display: inline-block;
     height: auto;
-    padding-bottom: 40px;
     width: 100%;
     background-color: #eee;
 
 }
 
-#contenedorPublicaciones{
-  display: inline-block;
-  text-align: center;
-  }
+    #contenedorPublicaciones{
+      margin-top: -80px;
+      display: inline-block;
+      text-align: center;
+      margin-bottom: 80px;
+    }
 
-
-
-.textoPublicacion{
+    .textoPublicacion{
 
   height: 130px;
   width: 100%;
   display: inline-block;
   margin-top: -4px;
   background-color: #0c0c32;
+  }
 }
 
+/*  ---- TERMINA SMARTHPHONE ----*/
 
+
+
+@media only screen and ( min-width: 751px) and  ( max-width: 1125px) {
+  
+  #publicacion{
+    margin-top: 50px;
+    margin-left: 22.5px;
+    margin-right: 22.5px;
+    height: 260px;
+    width: 330px;
+    display: inline-block;
+      padding-bottom: 60px;
+      padding-top: 60px;
+  }  
+
+  #publicaciones{
+  display: inline-block;
+    height: auto;
+    width: 100%;
+    background-color: #eee;
+
+}
+
+  #contenedorPublicaciones{
+    margin-top: -60px;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  
+  .textoPublicacion{
+  
+  height: 130px;
+  width: 100%;
+  display: inline-block;
+  margin-top: -4px;
+  background-color: #0c0c32;
+  }
+}
+
+@media only screen and ( min-width: 1126px)  {
+  #publicacion{
+    margin-top: 50px;
+    margin-left: 22.5px;
+    margin-right: 22.5px;
+    height: 260px;
+    width: 330px;
+    display: inline-block;
+      padding-bottom: 40px;
+  }  
+
+  #publicaciones{
+  display: inline-block;
+    height: auto;
+    width: 100%;
+    background-color: #eee;
+
+}
+
+  #contenedorPublicaciones{
+    margin-top: 0px;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  
+  .textoPublicacion{
+  
+  height: 130px;
+  width: 100%;
+  display: inline-block;
+  margin-top: -4px;
+  background-color: #0c0c32;
+  }
+}
 
 
 /*                         -----------  TEMRINA Publicaciones index  ------------ */ 
@@ -632,7 +698,10 @@ header{
       height: 30px;
     }
 
-
+    #RedesSociales img{
+      width: auto;
+      height: 18px;
+    }
 
     #textoFooter{
       text-align: right;
@@ -668,6 +737,11 @@ header{
       display: inline-block;
       width: 29%;
       height: 30px;
+    }
+
+    #RedesSociales img{
+      width: auto;
+      height: 18px;
     }
 
     #textoFooter{
