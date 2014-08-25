@@ -11,13 +11,12 @@
 }
 
 .sb-search {
-
-	position: relative;
-	margin-top: 5px;
+	position: absolute;
+	margin-top: 20px;
+	float: right;
 	width: 0%;
 	min-width: 40px;
 	height: 40px;
-	float: right;
 	overflow: hidden;
 	-webkit-transition: width 0.3s;
 	-moz-transition: width 0.3s;
