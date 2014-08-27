@@ -673,46 +673,7 @@ header{
 
 
 
-@media screen and (min-width:768px) {  /*  ---- VERSION MOVIL ---- */
-   footer{
-    display: inline-block;
-    color: #fff;
-    height: 0px;
-    width: 100%;
-    margin-top: 0px;
-    padding-bottom: 60px;
-    background-color: #0c0c32;
-    left: 0;
-        
-    }
-
-
-    footer img{
-      padding-left: 10px;
-    }
-
-    #RedesSociales{
-      margin-top: 2px;
-      display: inline-block;
-      width: 29%;
-      height: 30px;
-    }
-
-    #RedesSociales img{
-      width: auto;
-      height: 18px;
-    }
-
-    #textoFooter{
-      text-align: right;
-      margin-top: 2px;
-      display: inline-block;
-      font: 12px FiraSansExtraLight;
-      width: 70%;
-      height: 30px;
-    }
-
-}       /*  ----  TERMINA VERSION MOVIL ---- */
+    /*  ----  TERMINA VERSION MOVIL ---- */
 
 @media screen and (min-width: 769px) {
     
@@ -734,6 +695,7 @@ header{
 
     #RedesSociales{
       margin-top: 15px;
+      margin-left: 5%;
       display: inline-block;
       width: 29%;
       height: 30px;
@@ -746,10 +708,10 @@ header{
 
     #textoFooter{
       text-align: right;
-      margin-top: 15px;
+      margin-top: 13px;
       display: inline-block;
       font: 13px FiraSansExtraLight;
-      width: 70%;
+      width: 65%;
       height: 30px;
     }
 
