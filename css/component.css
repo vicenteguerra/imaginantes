@@ -27,7 +27,7 @@
 			}
 
 			.sb-search-input {
-				border-radius: 40px;
+				border-radius: 0px;
 				position: absolute;
 				top: 0;
 				right: 10%;
@@ -35,7 +35,7 @@
 				outline: none;
 				background: #fff;
 				width: 75%;
-				height: 35px;
+				height: 30px;
 				margin: 0;
 				z-index: 10;
 				padding-left: 5%;
@@ -161,7 +161,7 @@
 		outline: none;
 		background: #fff;
 		width: 55%;
-		height: 35px;
+		height: 30px;
 		margin: 0;
 		z-index: 10;
 		padding-left: 5%;

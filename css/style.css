@@ -813,45 +813,109 @@ left: 35%; /* 1/4 Ancho del enlace + 3 veces ancho enlace */
 
 /* -------------------- WIDGETS ----------------  */
 
-#Widgets{
-  width: 100%;
-  height: 500px;
-  text-align: center;
-  background-color: #b0e7e3;
-  display: inline-block;
-  margin-bottom: -4px;
+
+/* ----------- - NORMAL - -------------- */
+
+@media screen and (min-width: 401px){
+    #Widgets{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: #b0e7e3;
+    display: inline-block;
+    margin-bottom: -4px;
+  }
+   #FacebookWidget{
+      width: 330px;
+      height: 330px;
+      margin-top: 50px;
+      margin-left: 22.5px;
+      margin-right: 22.5px;
+      padding-bottom: 40px;
+      display: inline-block;
+    }   
+
+      #WidgetFacebook{
+      width: 330px;
+      height: 330px;
+    }
+
+    #TwitterWidget{
+      width: 330px;
+      height: 330px;
+      margin-top: 50px;
+      margin-left: 22.5px;
+      margin-right: 22.5px;
+      padding-bottom: 40px;
+      display: inline-block;
+    }   
+
+    #InstagramWidget{
+      width: 330px;
+      height: 330px;
+      margin-top: 50px;
+      margin-left: 22.5px;
+      margin-right: 22.5px;
+      padding-bottom: 40px;
+      display: inline-block;
+    }  
 }
- #FacebookWidget{
-    width: 330px;
-    height: 330px;
-    margin-top: 50px;
-    margin-left: 22.5px;
-    margin-right: 22.5px;
-    padding-bottom: 40px;
-    display: inline-block;
-  }   
 
-  #TwitterWidget{
-    width: 330px;
-    height: 330px;
-    margin-top: 50px;
-    margin-left: 22.5px;
-    margin-right: 22.5px;
-    padding-bottom: 40px;
-    display: inline-block;
-  }   
+/* ----------- - TERMINA NORMAL- -------------- */
 
-  #InstagramWidget{
-    width: 330px;
-    height: 330px;
-    margin-top: 50px;
-    margin-left: 22.5px;
-    margin-right: 22.5px;
-    padding-bottom: 40px;
+/* ----------- - SMARTHPHONE - -------------- */
+
+@media screen and (max-width: 400px){
+    #Widgets{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-color: #b0e7e3;
     display: inline-block;
-  }  
+    margin-bottom: -4px;
+  }
+   #FacebookWidget{
+      width: 240px;
+      height: 350px;
+      margin-top: 15px;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding-bottom: 0px;
+      display: inline-block;
+    }   
+
+    #WidgetFacebook{
+      width: 240px;
+      height: 350px;
+    }
+
+    #TwitterWidget{
+      width: 240px;
+      height: 330px;
+      margin-top: 15px;
+      margin-left: 22.5px;
+      margin-right: 22.5px;
+      padding-bottom: 10px;
+      display: inline-block;
+    }   
+
+    #InstagramWidget{
+      width: 240px;
+      height: 240px;
+      margin-top: 25px;
+      margin-left: 22.5px;
+      margin-right: 22.5px;
+      padding-bottom: 10px;
+      display: inline-block;
+    }  
+}
+
+
+
+/* ----------- - TERMINA SMARTHPHONE - -------------- */
 
 /* --------------- TERMINA WIDGETS --------------  */
+
 
 
 
